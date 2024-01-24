@@ -31,6 +31,10 @@ const material = new THREE.MeshStandardMaterial({ color: 0xff6347 });
 const torus = new THREE.Mesh(geometry, material);
 scene.add(torus);
 
+// Cambiar la textura del toroide
+const torusTexture = new THREE.TextureLoader().load('torus.jpg');
+torus.material.map = torusTexture;
+
 // Configurar luces en la escena
 const pointLight = new THREE.PointLight(0xffffff);
 pointLight.position.set(5, 5, 5);
