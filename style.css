@@ -80,6 +80,11 @@ canvas {
     grid-column: 6 / 12;
   }
 
+
+  .fotos {
+    width: 700px;
+  }
+
 a {
   text-decoration: none;
   color: lightcoral; 
@@ -88,3 +93,4 @@ a:hover {
   text-decoration: underline;
 }
 }
+
