@@ -80,8 +80,11 @@ canvas {
     grid-column: 6 / 12;
   }
 
-  p {
+a {
+  text-decoration: none;
+  color: lightcoral; 
 
-    font-size: 10;
-
-  }
+a:hover {
+  text-decoration: underline;
+}
+}
