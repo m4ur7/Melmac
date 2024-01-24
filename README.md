@@ -33,8 +33,14 @@ Estimulación de expresiones artísticas y culturales que reflejan la experienci
 Uso
 Sigue estos pasos para configurar y ejecutar el Proyecto de Exploración Melmac en tu máquina local:
 
+## Uso
 
+```
 git clone <este-repo>
 npm install
 npm run dev
+
 Abre tu navegador web y accede a http://localhost:tu-puerto para explorar Melmac.
+
+```
+
