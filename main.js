@@ -34,7 +34,7 @@ const torus = new THREE.Mesh(geometry, material);
 scene.add(torus);
 
 // Cambiar la textura del toroide
-const torusTexture = new THREE.TextureLoader().load('torus.jpg');
+const torusTexture = new THREE.TextureLoader().load('images/torus.jpg');
 torus.material.map = torusTexture;
 
 // Configurar luces en la escena
@@ -62,17 +62,17 @@ function addStar() {
 Array(200).fill().forEach(addStar);
 
 // Configurar el fondo de la escena con una textura espacial
-const spaceTexture = new THREE.TextureLoader().load('space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('images/space.jpg');
 scene.background = spaceTexture;
 
 // Configurar un avatar en la escena
-const eclipseTexture = new THREE.TextureLoader().load('eclipse.jpg');
+const eclipseTexture = new THREE.TextureLoader().load('images/eclipse.jpg');
 const eclipse = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: eclipseTexture }));
 scene.add(eclipse);
 
 // Configurar la luna en la escena con texturas y posición específica
-const moonTexture = new THREE.TextureLoader().load('moon.jpg');
-const normalTexture = new THREE.TextureLoader().load('normal.jpg');
+const moonTexture = new THREE.TextureLoader().load('images/moon.jpg');
+const normalTexture = new THREE.TextureLoader().load('images/normal.jpg');
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
   new THREE.MeshStandardMaterial({
