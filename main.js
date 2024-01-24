@@ -1,3 +1,5 @@
+
+
 // Importar estilos y bibliotecas necesarias
 import './style.css';
 import * as THREE from 'three';
